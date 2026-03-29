@@ -1,59 +1,28 @@
-<<<<<<< HEAD
 # Restaurant Reservation App
 
-## Περιγραφή
-Η εφαρμογή αυτή επιτρέπει στους χρήστες να πραγματοποιούν κρατήσεις τραπεζιών σε εστιατόρια μέσω μιας φιλικής προς τον χρήστη κινητής εφαρμογής. Η frontend υλοποιήθηκε με React Native και Expo, προσφέροντας υποστήριξη για Android και iOS, ενώ το backend αναπτύχθηκε με Node.js, Express και χρησιμοποιεί τη MariaDB για τη διαχείριση των δεδομένων.
+## Description
+This app allows users to make restaurant reservations through a user-friendly mobile app. The frontend was built using React Native and Expo, offering support for Android and iOS, while the backend was developed using Node.js and Express and uses MariaDB for data management.
 
-## Χαρακτηριστικά
+## Features
 
-- Εγγραφή και σύνδεση χρηστών με ασφάλεια μέσω JWT authentication  
-- Αναζήτηση διαθέσιμων εστιατορίων  
-- Δημιουργία και διαχείριση κρατήσεων  
-- Αποθήκευση και προστασία δεδομένων σε σχεσιακή βάση MariaDB  
-- Εύκολη πλοήγηση και διαχείριση καταστάσεων με React Navigation και React Hooks  
+- Secure user registration and login via JWT authentication
+- Search for available restaurants  
+- Create and manage reservations  
+- Store and protect data in a MariaDB relational database  
+- Easy navigation and state management with React Navigation and React Hooks  
 
-## Προαπαιτούμενα
+## Prerequisites
 
-- Node.js (v14 ή νεότερη)  
-- npm ή yarn  
-- MariaDB (ή MySQL) εγκατεστημένη και σε λειτουργία  
-- Expo CLI (για την εκτέλεση του frontend)  
+- Node.js (v14 or later)  
+- npm or yarn  
+- MariaDB (or MySQL) installed and running  
+- Expo CLI (for running the frontend) 
 
-## Οδηγίες Εγκατάστασης και Εκτέλεσης
+## Installation and Operation Instructions
 
 ### Backend
 
-1. Κλωνοποίηση αποθετηρίου:
+1. Repository cloning:
    ```bash
-   git clone <URL_αποθετηρίου>
+   git clone <repository_URL>
    cd restaurant-reservation-backend
-=======
-# Restaurant Reservation App
-
-## Περιγραφή
-Η εφαρμογή αυτή επιτρέπει στους χρήστες να πραγματοποιούν κρατήσεις τραπεζιών σε εστιατόρια μέσω μιας φιλικής προς τον χρήστη κινητής εφαρμογής. Η frontend υλοποιήθηκε με React Native και Expo, προσφέροντας υποστήριξη για Android και iOS, ενώ το backend αναπτύχθηκε με Node.js, Express και χρησιμοποιεί τη MariaDB για τη διαχείριση των δεδομένων.
-
-## Χαρακτηριστικά
-
-- Εγγραφή και σύνδεση χρηστών με ασφάλεια μέσω JWT authentication  
-- Αναζήτηση διαθέσιμων εστιατορίων  
-- Δημιουργία και διαχείριση κρατήσεων  
-- Αποθήκευση και προστασία δεδομένων σε σχεσιακή βάση MariaDB  
-- Εύκολη πλοήγηση και διαχείριση καταστάσεων με React Navigation και React Hooks  
-
-## Προαπαιτούμενα
-
-- Node.js (v14 ή νεότερη)  
-- npm ή yarn  
-- MariaDB (ή MySQL) εγκατεστημένη και σε λειτουργία  
-- Expo CLI (για την εκτέλεση του frontend)  
-
-## Οδηγίες Εγκατάστασης και Εκτέλεσης
-
-### Backend
-
-1. Κλωνοποίηση αποθετηρίου:
-   ```bash
-   git clone <URL_αποθετηρίου>
-   cd restaurant-reservation-backend
->>>>>>> 2fbad8c255189b5e5baed88e36375d56712a21aa
